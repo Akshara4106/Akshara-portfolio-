@@ -3,50 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshara K Bhaskar - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio of Akshara K. Bhaskar, a second-year Integrated M.Tech CSE (Cyber Security) student at VIT Bhopal University.">
+    <title>Akshara K. Bhaskar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Akshara K Bhaskar</h1>
-        <p>Passionate about Space Science, Innovation & Research</p>
+    <header class="site-header">
+        <a class="brand" href="#home">AKB</a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main>
+        <section class="hero" id="home">
+            <p class="eyebrow">Second-year Integrated M.Tech CSE (Cyber Security) · VIT Bhopal</p>
+            <h1>Hi, I’m Akshara K. Bhaskar.</h1>
+            <p class="intro">I’m learning to build practical software and exploring cybersecurity, secure web applications, and space science.</p>
+            <div class="actions">
+                <a class="button primary" href="https://github.com/Akshara4106">GitHub profile</a>
+                <a class="button secondary" href="https://www.linkedin.com/in/akshara-k-bhaskar-bb4a49287/">LinkedIn</a>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I’m a 12th-grade student passionate about space science, technology, and innovation. My work focuses on research, problem-solving, and awareness-building in space-related fields.</p>
-    </section>
+        <section class="section" id="about">
+            <p class="eyebrow">About</p>
+            <h2>Learning by building</h2>
+            <p>I’m a second-year Integrated M.Tech CSE (Cyber Security) student at VIT Bhopal University. My projects so far include Python and Flask applications, along with coursework on digital safety and professional online presence.</p>
+        </section>
 
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>Secured 7th position in the NASA Space Apps Challenge.</li>
-            <li>Documented the May 2024 Geomagnetic Storms and their impacts.</li>
-            <li>Aspiring to study at NTU through a government scholarship.</li>
-        </ul>
-    </section>
+        <section class="section" id="projects">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Budget Tracker</h3>
+                    <p>A Python command-line app for recording income and expenses, organizing transactions by category, and saving records in JSON.</p>
+                    <a href="https://github.com/Akshara4106/Budget-Tracker-Project">View repository →</a>
+                </article>
+                <article class="project-card">
+                    <h3>Secure File Upload Portal</h3>
+                    <p>A Flask learning demo with file type and request-size checks, UUID-prefixed filenames, and SQLite activity logs. Its admin page is not authenticated; it is not intended for sensitive or production use.</p>
+                    <a href="https://github.com/Akshara4106/Secure-File-Upload-Portal">View repository →</a>
+                </article>
+                <article class="project-card">
+                    <h3>Digital Literacy Project</h3>
+                    <p>Coursework covering digital safety, phishing awareness, online tools, email etiquette, and professional online presence.</p>
+                    <a href="https://github.com/Akshara4106/digital-literacy-project">View repository →</a>
+                </article>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Working on space science research, geomagnetic storm documentation, and technology-driven solutions.</p>
-    </section>
+        <section class="section" id="achievements">
+            <p class="eyebrow">Beyond code</p>
+            <h2>Space science</h2>
+            <ul class="achievement-list">
+                <li>Secured 7th position in the NASA Space Apps Challenge.</li>
+                <li>Documented the May 2024 geomagnetic storms and their impacts.</li>
+            </ul>
+        </section>
+    </main>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: -aksharakb4106@gmail.com</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Akshara K Bhaskar. All rights reserved.</p>
+    <footer class="site-footer">
+        <span>Akshara K. Bhaskar</span>
+        <a href="https://github.com/Akshara4106">GitHub</a>
     </footer>
 </body>
 </html>
